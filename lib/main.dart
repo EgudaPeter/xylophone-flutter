@@ -28,7 +28,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   padding: EdgeInsets.all(0.0),
-                  child: Container(
+                  child: Ink(
                     color: Colors.red,
                     width: width,
                   ), onPressed: () {RedButtonClicked();},
@@ -37,7 +37,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   padding: EdgeInsets.all(0.0),
-                  child: Container(
+                  child: Ink(
                     color: Colors.orange,
                     width: width,
                   ), onPressed: () {OrangeButtonClicked();},
@@ -46,7 +46,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   padding: EdgeInsets.all(0.0),
-                  child: Container(
+                  child: Ink(
                     color: Colors.yellow,
                     width: width,
                   ), onPressed: () {YellowButtonClicked();},
@@ -55,7 +55,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   padding: EdgeInsets.all(0.0),
-                  child: Container(
+                  child: Ink(
                     color: Colors.lightGreen,
                     width: width,
                   ), onPressed: () {LightGreenButtonClicked();},
@@ -64,7 +64,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   padding: EdgeInsets.all(0.0),
-                  child: Container(
+                  child: Ink(
                     color: Colors.green,
                     width: width,
                   ), onPressed: () {GreenButtonClicked();},
@@ -73,7 +73,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   padding: EdgeInsets.all(0.0),
-                  child: Container(
+                  child: Ink(
                     color: Colors.blue,
                     width: width,
                   ), onPressed: () {BlueButtonClicked();},
@@ -82,7 +82,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   padding: EdgeInsets.all(0.0),
-                  child: Container(
+                  child: Ink(
                     color: Colors.purple,
                     width: width,
                   ), onPressed: () {PurpleButtonClicked();},
